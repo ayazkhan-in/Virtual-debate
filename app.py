@@ -33,7 +33,7 @@ def chat_with_ai(philosopher, message):
 st.set_page_config(
     page_title="Virtual Debate",  # Title shown in the browser tab
     page_icon="🧠",  # Favicon (can be an emoji or an image URL)
-    layout="wide",  # Optional: "centered" or "wide"
+    layout="centered",  # Optional: "centered" or "wide"
     initial_sidebar_state="expanded"  # Optional: "expanded" or "collapsed"
 )
 
