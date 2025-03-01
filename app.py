@@ -29,6 +29,14 @@ def chat_with_ai(philosopher, message):
     return response.text.strip()
 
 # UI Elements
+
+st.set_page_config(
+    page_title="Virtual Debate",  # Title shown in the browser tab
+    page_icon="🧠",  # Favicon (can be an emoji or an image URL)
+    layout="wide",  # Optional: "centered" or "wide"
+    initial_sidebar_state="expanded"  # Optional: "expanded" or "collapsed"
+)
+
 st.title("Virtual Debate")
 
 option1 = st.selectbox(
